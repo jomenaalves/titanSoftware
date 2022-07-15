@@ -1,0 +1,27 @@
+
+{
+    "name" : "jomenaalves/titansoftware",
+    "description": "Micro Framework para desenvolvimento pessoal de projetos",
+    "authors": [
+        {
+            "name": "José Carlos Omena Alves",
+            "email": "jomenaalves@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\" : [
+                "source/", "source/utils"
+            ]
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+
+    "require": {
+        "coffeecode/router": "^1.0",
+        "league/plates": "^3.4"
+    }
+}
